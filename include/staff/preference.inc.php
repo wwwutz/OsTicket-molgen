@@ -342,7 +342,6 @@ $templates=db_query('SELECT tpl_id,name FROM '.EMAIL_TEMPLATE_TABLE.' WHERE cfg_
                 <i><b>Default Email:</b> Only applies to outgoing emails with no SMTP settings.</i><br/>
                 <select name="default_smtp_id"
                     onChange="document.getElementById('overwrite').style.display=(this.options[this.selectedIndex].value>0)?'block':'none';">
-                    <option value=0><?php echo  $trl->translate('TEXT_SELECT_ONE_TOPIC') ?></option>
                     <option value=0 selected="selected">None: Use PHP mail function</option>
                     <?php 
                     $emails=db_query('SELECT email_id,email,name,smtp_host FROM '.EMAIL_TABLE.' WHERE smtp_active=1');
