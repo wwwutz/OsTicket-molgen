@@ -135,6 +135,7 @@ $LANG['LABEL_EMAIL_TEMPLATES'] = 'Email Templates';
 $LANG['LABEL_ENABLE_SYSTEM_OFF_LINE'] = 'Enable';
 $LANG['LABEL_ENTER_NOTE_CONTENT'] = 'Enter note content.';
 // Label F
+$LANG['LABEL_FIRSTNAME'] = 'First Name';
 $LANG['LABEL_FROM'] = 'From.';
 $LANG['LABEL_FULL_NAME'] = 'Full Name';
 // Label G
@@ -172,6 +173,7 @@ $LANG['LABEL_ISSUE_SUMMARY'] = 'Issue Summary';
 $LANG['LABEL_KNOWLEDGE_BASE'] = 'Knowledge Base';
 $LANG['LABEL_KNOWLEDGE_BASE_PREMATE'] = 'Knowledge Base: Premade';
 // Label L
+$LANG['LABEL_LASTNAME'] = 'Last Name';
 $LANG['LABEL_LAST_UPDATED'] = 'Last Updated';
 $LANG['LABEL_LOG_OUT'] = 'Log Out';
 // Label M
@@ -179,6 +181,7 @@ $LANG['LABEL_MAKE_PUBLIC'] = 'Make Public';
 $LANG['LABEL_MAKE_PRIVATE'] = 'Make Private';
 $LANG['LABEL_MANAGER'] = 'Manager';
 $LANG['LABEL_MESSAGE'] = 'Message';
+$LANG['LABEL_MOBILE_PHONE'] = 'Mobile Phone';
 $LANG['LABEL_MONTH'] = 'Month';
 $LANG['LABEL_MONTHS'] = 'Months';
 $LANG['LABEL_MY_ACCOUNT'] = 'My Account';

@@ -2,7 +2,7 @@
 if(!defined('OSTSCPINC') || !is_object($thisuser)) die('Kwaheri');
 
 ?>
-<div class="msg">My Profile Info</div>
+<div class="msg"><?php echo $trl->translate("LABEL_MY_PROFILE") ?></div>
 <table width="100%" border="0" cellspacing=0 cellpadding=2>
  <form action="profile.php" method="post">
  <input type="hidden" name="t" value="info">
@@ -12,22 +12,22 @@ if(!defined('OSTSCPINC') || !is_object($thisuser)) die('Kwaheri');
         <td>&nbsp;<?php echo $thisuser->getUserName()?></td>
     </tr>
     <tr>
-        <td>First Name:</td>
+        <td><?php echo $trl->translate('LABEL_FIRSTNAME') ?>:</td>
         <td><input type="text" name="firstname" value="<?php echo $rep['firstname']?>">
             &nbsp;<font class="error">*&nbsp;<?php echo $errors['firstname']?></font></td>
     </tr>
     <tr>
-        <td>Last Name:</td>
+        <td><?php echo $trl->translate('LABEL_LASTNAME') ?>:</td>
         <td><input type="text" name="lastname" value="<?php echo $rep['lastname']?>">
             &nbsp;<font class="error">*&nbsp;<?php echo $errors['lastname']?></font></td>
     </tr>
     <tr>
-        <td>Email Address:</td>
+        <td><?php echo $trl->translate('LABEL_EMAIL') ?>:</td>
         <td><input type="text" name="email" size=25 value="<?php echo $rep['email']?>">
             &nbsp;<font class="error">*&nbsp;<?php echo $errors['email']?></font></td>
     </tr>
     <tr>
-        <td>Office Phone:</td>
+        <td><?php echo $trl->translate('LABEL_PHONE') ?>:</td>
         <td>
             <input type="text" name="phone" value="<?php echo $rep['phone']?>" ><font class="error">&nbsp;<?php echo $errors['phone']?></font>&nbsp;Ext&nbsp;
             <input type="text" name="phone_ext" size=6 value="<?php echo $rep['phone_ext']?>" >
@@ -35,12 +35,12 @@ if(!defined('OSTSCPINC') || !is_object($thisuser)) die('Kwaheri');
         </td>
     </tr>
     <tr>
-        <td>Cell Phone:</td>
+        <td><?php echo $trl->translate('LABEL_MOBILE_PHONE') ?>:</td>
         <td><input type="text" name="mobile" value="<?php echo $rep['mobile']?>" >
             &nbsp;<font class="error">&nbsp;<?php echo $errors['mobile']?></font></td>
     </tr>
     <tr>
-        <td valign="top">Signature:</td>
+        <td valign="top"><?php echo $trl->translate('LABEL_MY_SIGNATURE') ?>:</td>
         <td><textarea name="signature" cols="21" rows="5" style="width: 60%;"><?php echo $rep['signature']?></textarea></td>
     </tr>
     <tr><td>&nbsp;</td>
