@@ -105,8 +105,8 @@ class Validator {
                     $this->errors[$k]=$field['error'];
                 break;
             case 'password':
-                if(strlen($this->input[$k])<5)
-                    $this->errors[$k]=$field['error'].' (5 chars min)';
+                if(strlen($this->input[$k])<1)
+                    $this->errors[$k]=$field['error'].' (1 char min)';
                 break;
             case 'username':
                 if(strlen($this->input[$k])<3)
