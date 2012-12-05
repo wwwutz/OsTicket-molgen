@@ -100,7 +100,6 @@ $LANG['LABEL_CATEGORY'] = 'category';
 $LANG['LABEL_CATEGORY_DEPT'] = 'Kategorie/Abteilung';
 $LANG['LABEL_CHANGE_PASSWORD'] = 'Passwort &auml;ndern';
 $LANG['LABEL_CHECK_STATUS'] = 'Status pr&uuml;fen';
-$LANG['LABEL_CLOSED'] = 'Geschlossen';
 $LANG['LABEL_CREATE_DATE'] = 'Erstellungsdatum';
 // Label D
 $LANG['LABEL_DASHBOARD'] = 'Dashboard';
@@ -297,7 +296,7 @@ $LANG['LABEL_UPDATE_DEPARTMENT'] = 'Abteilung aktualisieren';
 $LANG['LABEL_USERNAME'] = 'Benutzername';
 $LANG['LABEL_USERS'] = 'Benutzer';
 // Label V
-$LANG['LABEL_VIEW_STATUS'] = 'Ansichtsstatus';
+$LANG['LABEL_VIEW_STATUS'] = 'Anzeige';
 
 #######
 ## Generic text for all site, if have to text repeted in
@@ -358,7 +357,7 @@ $LANG['TEXT_INVALID_LOGIN'] = 'Ung&uuml;ltiger Login';
 // TEXT L
 $LANG['TEXT_LOGIN_VIEW_STATUS_OF_TICKET']='Um den Status Ihres Tickets einzusehen, geben Sie bitte unten Ihre Zugangsdaten ein.<br/>'.
         'Wenn Sie uns das erste mal kontaktieren oder Ihre Ticket ID verloren haben, &ouml;ffnen Sie bitte ein <a href="open.php">neues Ticket</a>.';
-$LANG['TEXT_LOG_OUT'] = 'Ausloggen';
+$LANG['TEXT_LOG_OUT'] = 'Abmelden';
 // TEXT M
 //$LANG['TEXT_MESSAGE_POSTED_SUCCESSFULLY']
 $LANG['TEXT_MY_ACCOUNT'] = 'Mein Account';
@@ -392,8 +391,8 @@ $LANG['TEXT_OVERDUE'] = '&Uuml;berf&auml;llig';
 $LANG['TEXT_OVERDUE_STATS'] = '&Uuml;berf&auml;llig seit ({0})';
 $LANG['TEXT_OVERDUE_TICKETS'] = '&Uuml;berf&auml;llige Tickets';
 // TEXT P
-$LANG['TEXT_PLEASE_FILL_STAFF_FORM_BELOW_OPEN_NEW_TICKET'] = 'Bitte f&uuml;llen Sie das Formular unten aus im ein Ticket zu &ouml;ffnen.';
-$LANG['TEXT_PLEASE_FILL_FORM_NEW_TICKET'] = 'Bitte f&uuml;llen Sie das Formular unten aus im ein Ticket zu &ouml;ffnen.';
+$LANG['TEXT_PLEASE_FILL_STAFF_FORM_BELOW_OPEN_NEW_TICKET'] = 'Bitte f&uuml;llen Sie das folgende Formular aus um ein Ticket zu &ouml;ffnen.';
+$LANG['TEXT_PLEASE_FILL_FORM_NEW_TICKET'] = 'Bitte f&uuml;llen Sie das Formular aus um ein Ticket zu &ouml;ffnen.';
 $LANG['TEXT_PLEASE_TAKE_A_MINUTE_TO_DELETE_INSTALL'] = 'Bitte nehmen Sie sich einen Moment Zeit um das <strong>setup/install</strong> Verzeichnis aus Sicherheitsgr&uuml;nden zu l&ouml;schen.';
 $LANG['TEXT_PLEASE_REFER_TO'] = 'Siehe';
 $LANG['TEXT_POST_REPLY'] = 'Antworten';
@@ -410,7 +409,7 @@ $LANG['TEXT_SELECT_PREMADE_REPLY'] = 'Vorgefertigte Antwort ausw&auml;hlen';
 $LANG['TEXT_SELECT_STAFF_MEMBER'] = '-Mitarbeiter ausw&auml;hlen.-';
 $LANG['TEXT_SELECT_TARGET_DEPT'] = '-Abteilung ausw&auml;hlen-';
 $LANG['TEXT_SELECT_ONE_TOPIC'] = 'Auswahl';
-$LANG['TEXT_SESSION_TIMED_OUT_DUE_TO_INACTIVITY']='Sitzung wegen inaktivit&auml;t geschlossen.';
+$LANG['TEXT_SESSION_TIMED_OUT_DUE_TO_INACTIVITY']='Sitzung wegen Inaktivit&auml;t geschlossen.';
 $LANG['TEXT_SHOW_FROM_TO_OF_ALL'] = 'Zeige {0} - {1} von {2}';
 $LANG['TEXT_SHOW_ZERO'] = 'Zeige 0 (null)';
 $LANG['TEXT_SORT_BY_CATEGORY'] = 'Nach Kategorie sortieren';
