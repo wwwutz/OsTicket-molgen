@@ -17,7 +17,7 @@ if(!defined('OSTCLIENTINC') || !is_object($ticket)) die('Kwaheri rafiki!'); //Sa
     <p><?php echo $trl->translate('TEXT_THANKS_NEW_TICKET')?></p>
           
     <?php if($cfg->autoRespONNewTicket()){ ?>
-    <p><?php echo $trl->translate('TEXT_NEW_TICKET_AUTO_RESPONSE',$ticket->getEmail())?>
+    <p><?php echo $trl->translate('TEXT_NEW_TICKET_AUTO_RESPONSE',array($ticket->getEmail(),$ticket->getExtId()))?>
     </p>
     <?php }?>
     <p><?php echo $trl->translate('TEXT_SUPPORT_TEAM')?></p>

@@ -18,11 +18,11 @@ $LANG['CODEPAGE'] = 'UTF-8';
 ##Alert Messages, normally used with JavaScript dialog box.
 ##
 $LANG['ALERT_EXCESSIVE_LOGIN_ATTEMPTS_BY_CLIENT'] = 'Mehrere Loginversuche durch client'."\n".
-                'E-Mail: {0}'."\n".
-				'Ticket#: {1}'."\n".
-                'IP: {2}'."\n".
-				'Time: {3}'."\n\n".
-                'Anz. Versuche #{4}';
+ 'E-Mail: {0}'."\n".
+ 'Ticket#: {1}'."\n".
+ 'IP: {2}'."\n".
+ 'Time: {3}'."\n\n".
+ 'Anz. Versuche #{4}';
 
 #######
 ## Error Mensages
@@ -140,8 +140,8 @@ $LANG['LABEL_ENABLE_SYSTEM_OFF_LINE'] = 'Aktiviert';
 $LANG['LABEL_ENTER_NOTE_CONTENT'] = 'Notiz eingeben.';
 // Label F
 $LANG['LABEL_FIRSTNAME'] = 'Vorname';
-$LANG['LABEL_FROM'] = 'Von.';
-$LANG['LABEL_FULL_NAME'] = 'Voller Name';
+$LANG['LABEL_FROM'] = 'Von';
+$LANG['LABEL_FULL_NAME'] = 'Name';
 // Label G
 $LANG['LABEL_GENERAL_SETTINGS'] = 'Allgemeine Einstellungen';
 $LANG['LABEL_GO'] = 'LOS';
@@ -180,7 +180,7 @@ $LANG['LABEL_KNOWLEDGE_BASE_PREMATE'] = 'Vorgefertigte Antworten';
 // Label L
 $LANG['LABEL_LAST_UPDATED'] = 'Zuletzt aktualisiert';
 $LANG['LABEL_LASTNAME'] = 'Nachname';
-$LANG['LABEL_LOG_OUT'] = 'Ausloggen';
+$LANG['LABEL_LOG_OUT'] = 'Abmelden';
 // Label M
 $LANG['LABEL_MAKE_PUBLIC'] = '&Ouml;ffentlich machen';
 $LANG['LABEL_MAKE_PRIVATE'] = 'Privat machen';
@@ -341,7 +341,7 @@ $LANG['TEXT_ENTER_MESSAGE'] = 'Nachricht eingeben';
 //$LANG['TEXT_EXCESSIVE_LOGIN_ATTEMPTS_BY_CLIENT']
 // TEXT F  
 $LANG['TEXT_FOR_SUPPORTED_PARAMETERS'] = 'f&uuml;r die Formatbeschreibung';
-$LANG['TEXT_FORGOT_YOUR_LOGIN_INFO']='Login Informationen vergessen ? &ouml;ffnen Sie bitte ein <a href="open.php">neues Ticket</a>.';
+$LANG['TEXT_FORGOT_YOUR_LOGIN_INFO']='<a href="open.php">Sie k&ouml;nnen nicht auf ihr Konto zugreifen?</a>.';
 // TEXT G
 $LANG['TEXT_GENERAL_INQUIRY'] = 'Allgemeine Abfrage';
 $LANG['TEXT_GLOBAL_AUTO_RESPONSE_SETTINGS'] = 'Die globale Auto-Antwort Option muss in den Einstellungen der Abteilung auf \'Aktiviert\' gesetzt sein.';
@@ -356,7 +356,7 @@ $LANG['TEXT_INVALID_LOGIN'] = 'Ung&uuml;ltiger Login';
 // TEXT J
 // TEXT K
 // TEXT L
-$LANG['TEXT_LOGIN_VIEW_STATUS_OF_TICKET']='Um den Status Ihrers Tickets einzusehen, geben Sie bitte unten Ihre Zugansdaten ein.<br/>'.
+$LANG['TEXT_LOGIN_VIEW_STATUS_OF_TICKET']='Um den Status Ihres Tickets einzusehen, geben Sie bitte unten Ihre Zugangsdaten ein.<br/>'.
         'Wenn Sie uns das erste mal kontaktieren oder Ihre Ticket ID verloren haben, &ouml;ffnen Sie bitte ein <a href="open.php">neues Ticket</a>.';
 $LANG['TEXT_LOG_OUT'] = 'Ausloggen';
 // TEXT M
@@ -366,7 +366,9 @@ $LANG['TEXT_MY_TICKETS'] = 'Meine Tickets';
 $LANG['TEXT_MY_TICKETS_STATS'] = 'Meine Tickets ({0})';
 // TEXT N
 $LANG['TEXT_NEW_TICKET'] = 'Neues Ticket';
-$LANG['TEXT_NEW_TICKET_AUTO_RESPONSE'] = 'Eine E-Mail mit der Ticket Nummer wurd an <b>{0}</b> gesendet. Sie ben&ouml;tigen sowohl die Ticket Nummer, als auch Ihre E-Mail Adresse um den Status des Tickets online einzusehen.<br><br>Wenn sie weitere Informationen zu einem bestehenden Ticket hinzuf&uuml;gen wollen, beachten Sie bitte die Hinweise in Ihrer E-Mail.';
+$LANG['TEXT_NEW_TICKET_AUTO_RESPONSE'] = 'An die E-Mail <b>{0}</b> wurde die Ticket Nummer <b>{1}</b> versandt.'.
+  ' Sie ben&ouml;tigen sowohl die Ticket Nummer, als auch Ihre E-Mail Adresse um den Status des Tickets online einzusehen.<br>'.
+  '<br>Wenn sie weitere Informationen zu einem bestehenden Ticket hinzuf&uuml;gen wollen, beachten Sie bitte die Hinweise in Ihrer E-Mail.';
 $LANG['TEXT_NOT_THIS_USER'] = 'Ich bin nicht dieser Benutzer';
 $LANG['TEXT_NO_TICKETS_FOUND'] = 'KEINE Tickets gefunden.';
 // TEXT O
@@ -421,9 +423,9 @@ $LANG['TEXT_SUPPORT_CENTER'] = 'Support Zentrale';
 $LANG['TEXT_SUPPORT_TICKET_SISTEM'] = '<span>SUPPORT TICKET</span> SYSTEM';
 $LANG['TEXT_SYSTEM_IS_OFF_LINE'] = '<strong>Das System ist im Offline Modus</strong> - Das Benutzerinface ist in diesem Zustand deaktiviert und nur Administratoren k&ouml;nnen sich einloggen.';
 // TEXT T
-$LANG['TEXT_THANKS_NEW_TICKET'] = 'Vielen Dank.<br>Ein neues Support Ticket wrde erstellt und ein Mitarbeiter wird sich in k&uuml;rze mit Ihnen in Verbinsung setzen.';
+$LANG['TEXT_THANKS_NEW_TICKET'] = 'Vielen Dank.<br>Ein neues Support Ticket wurde erstellt und ein Mitarbeiter wird sich in K&uuml;rze mit Ihnen in Verbindung setzen.';
 $LANG['TEXT_TICKET_ASSIGNED_TO_STAFF'] = 'An {0} zugeweisene Tickets';
-$LANG['TEXT_TICKET_CREATED'] = 'Support Ticket Anfrage erstellt';
+$LANG['TEXT_TICKET_CREATED'] = 'Support Ticket erstellt';
 $LANG['TEXT_TICKET_CREATED_SUCCESSFULLY'] = 'Ticket erfolgreich erstellt';
 $LANG['TEXT_TICKET_DELETED_FOREVER'] = 'Ticket unwiderruflich gel&ouml;scht';
 $LANG['TEXT_TICKET_FLAGGED_AS_OVERDUE'] = 'Ticket als &uuml;berf&auml;llig markiert';
