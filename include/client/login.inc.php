@@ -14,7 +14,7 @@ $t=Format::input($_POST['lticket']?$_POST['lticket']:$_GET['t']);
 <div style="margin:5px 0px 100px 0;text-align:center; width:100%;">
     <p align="center"><?php echo $trl->translate('TEXT_LOGIN_VIEW_STATUS_OF_TICKET');?>;
     </p>
-    <span class="error"><?php echo Format::htmlchars($loginmsg)?></span>
+    <span class="error"><?php echo $loginmsg ?></span>
     <form action="login.php" method="post">
     <table cellspacing="1" cellpadding="5" border="0" bgcolor="#000000" align="center">
         <tr bgcolor="#EEEEEE"> 
