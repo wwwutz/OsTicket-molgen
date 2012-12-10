@@ -95,10 +95,6 @@ if(file_exists('../ostconfig.php') || file_exists('../include/settings.php')) { 
         if($_POST['prefix'] && substr($_POST['prefix'], -1)!='_')
             $errors['prefix']='Bad prefix. Must have underscore (_) at the end. e.g \'ost_\'';
        
-        //Make sure admin username is not very predictable.
-        if(!$errors['username'] && in_array(strtolower($_POST['username']),array('admin','admins','username','osticket')))
-            $errors['username']='Bad username';
-
         //Connect to the DB
         if(!$errors && !db_connect($_POST['dbhost'],$_POST['dbuser'],$_POST['dbpass']))
             $errors['mysql']='Unable to connect to MySQL server. Possibly invalid login info. <br>'; 

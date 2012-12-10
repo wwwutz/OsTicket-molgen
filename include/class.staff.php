@@ -286,8 +286,8 @@ class Staff {
                 $errors['npassword']='Temp password required';
             elseif($vars['npassword'] && strcmp($vars['npassword'],$vars['vpassword']))
                 $errors['vpassword']='Password(s) do not match';
-            elseif($vars['npassword'] && strlen($vars['npassword'])<6)
-                $errors['npassword']='Must be at least 6 characters';
+            elseif($vars['npassword'] && strlen($vars['npassword'])<1)
+                $errors['npassword']='Must be at least 1 character';
         }
         
         if(!$vars['dept_id'])

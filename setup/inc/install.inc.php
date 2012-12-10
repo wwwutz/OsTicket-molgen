@@ -68,7 +68,7 @@ if (option.value!='nothing'){
             &nbsp;<font class="error"><?php echo $errors['sysemail']?></font></td>
     </tr> 
     <tr class="title"><td colspan=2>Admin user</td></tr>
-    <tr class="subtitle"><td colspan=2>Min of six characters for the password. You can change or add more users later.</td></tr>
+    <tr class="subtitle"><td colspan=2>Please choose an unpredictable username and a strong password.</td></tr>
     <tr>
         <td colspan=2>
          <table border=0 cellspacing=0 cellpadding=2 class="clean">
